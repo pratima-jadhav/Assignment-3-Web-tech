@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            height: 100px;  
+        }
+       
+        .top {
+            vertical-align: top;
+        }
+        
+        .middle {
+            vertical-align: middle;
+        }
+        
+        .bottom {
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Table with Vertical Alignment</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="top">Top Aligned</td>
+            <td class="middle">Middle Aligned</td>
+            <td class="bottom">Bottom Aligned</td>
+        </tr>
+        <tr>
+            <td class="top">Text at the upper</td>
+            <td class="middle">Centered Text</td>
+            <td class="bottom">Text at the Bottom</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
